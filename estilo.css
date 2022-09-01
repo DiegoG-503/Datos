@@ -1,0 +1,85 @@
+/* Página principal: index.html */
+body{
+    background-color:#abcdef;
+}
+h1{
+    color: white;
+    background-color: #072441;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+table{
+    width: 100%;
+    font-family: sans-serif;
+    
+}
+table, th, td{
+    border: 1px solid #072441;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+table tr th{
+    background-color: #639eda;
+
+}
+table tr th a{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: dashed;
+}
+/* -----------------------------------*/
+
+/* Registro de productos: producto.html */
+form{
+    background-color: #639eda;
+    margin-top: 5%;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 38%;
+}
+
+form a{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: dashed;
+
+}
+
+#guardar{
+    float: left;
+}
+#cancelar{
+    float: right;
+}
+
+/* -----------------------------------*/
+
+/* guardar.html */
+h2{
+    background-color: #639eda;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.inicio{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: dashed;
+    margin-left: 48%;
+    font-family: sans-serif;
+}
